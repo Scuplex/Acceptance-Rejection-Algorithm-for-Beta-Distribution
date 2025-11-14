@@ -28,6 +28,12 @@ The script generates a plot showing:
 1.  A histogram of the $1$ million generated samples (empirical distribution).
 2.  The true theoretical Beta PDF (`dbeta`) overlaid as a red line, confirming the accuracy of the Acceptance-Rejection algorithm.
 
+### Visual Validation
+
+The following plot demonstrates the accuracy of the Acceptance-Rejection method: the histogram of the $1$ million generated samples perfectly matches the true theoretical Beta PDF (red line).
+
+![Acceptance-Rejection Sampling Validation Plot](accept.png)
+
 ## 3. How to Run the Script
 
 You need to have **R** installed on your system to run the analysis.
