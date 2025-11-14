@@ -1,0 +1,1 @@
+# Acceptance-Rejection-Algorithm-for-Beta-Distribution
