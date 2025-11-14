@@ -10,8 +10,8 @@ The Acceptance-Rejection method is used when the Inverse CDF method is not analy
 
 ### Key Implementation Steps:
 
-1.  **Target Density ($f(x)$):** The Beta density function $\text{Beta}(\alpha=2.5, \beta=3.5)$.
-2.  **Proposal Density ($g(x)$):** The Uniform density function $\mathcal{U}(0, 1)$, where $g(x) = 1$.
+1.  **Target Density ($$f(x)$$):** The Beta density function $\text{Beta}(\alpha=2.5, \beta=3.5)$.
+2.  **Proposal Density ($$g(x)$$):** The Uniform density function $\mathcal{U}(0, 1)$, where $g(x) = 1$.
 3.  **Constant $c$:** The script calculates the minimum constant $c$ such that $f(x) / g(x) \le c$. This $c$ represents the efficiency factor.
 4.  **Sampling Loop:**
     * Sample $x$ from $g(x)$ (the Uniform distribution).
